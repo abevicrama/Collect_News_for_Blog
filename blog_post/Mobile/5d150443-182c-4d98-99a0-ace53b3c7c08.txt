@@ -1,0 +1,9 @@
+The Gloves Are Off in the Fight for Your Right to Repair
+
+Repair advocates are continuing their push into 2026 and beyond, applying pressure on legislators to give gearheads the options they want when it comes to repairing gadgets every day. This fight is not just about access to tools, but about the fundamental principles of technological progress - that technology should be designed with repairability in mind from the start.
+
+Google's redesign of its Pixel Watch to make it more repairable after pressure from repair advocates is a significant victory for those fighting against restrictive regulations and obfuscated repair manuals. Despite these successes, companies continue to find ways to evade regulations and limit access to repair tools - a trend that has become increasingly common in the tech industry.
+
+Repair advocates are pushing back by re-examining Section 1201 of the Digital Millennium Copyright Act (DMCA) and exploring new avenues for bypassing passwords and encryption. Allowing bypasses, like those that enable device unlocking or unlocking access to encrypted apps, could give consumers more control over their devices. With many manufacturers relying on proprietary lock mechanisms, companies may find it difficult to comply with changing consumer demands.
+
+Repair advocates urge lawmakers to repeal Section 1201, citing the importance of giving consumers a say in how they use and interact with technology. As we move forward into an era where technology is increasingly embedded in our daily lives, the need for repairability has never been more pressing. By joining forces and advocating for policy changes, we can push for a future where devices are designed to be repaired, not just discarded.

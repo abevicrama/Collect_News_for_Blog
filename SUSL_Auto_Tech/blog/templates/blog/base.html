@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>SUSL Auto Tech Blog</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="vizew-nav-container">
+                <div class="top-header-content">
+                    <div class="breaking-news">
+                        <p>Welcome to SUSL Auto Tech Blog</p>
+                    </div>
+                    <div class="social-info">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Area -->
+        <div class="vizew-main-menu">
+            <div class="vizew-nav-container">
+                <a href="{% url 'blog_index' %}" class="nav-brand">SUSL AUTO TECH</a>
+                <div class="classy-nav-container">
+                    <nav class="classy-navbar">
+                        <div class="classy-menu">
+                            <ul id="nav">
+                                <li><a href="{% url 'blog_index' %}">Home</a></li>
+                                <li><a href="#">Archives</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="copywrite-text">
+                <p>&copy; Copyright 2025 SUSL Auto Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery & Plugins -->
+    <script src="{% static 'blog/js/main.js' %}"></script>
+</body>
+
+</html>

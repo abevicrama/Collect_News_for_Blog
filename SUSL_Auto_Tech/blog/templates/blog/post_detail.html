@@ -1,0 +1,43 @@
+{% extends 'blog/base.html' %}
+{% load blog_extras %}
+
+{% block content %}
+    <!-- Hero Area -->
+    <div class="hero-post-area" style="max-width: 1200px; margin: 30px auto;">
+        <!-- <img src="https://dummyimage.com/1200x500/000/fff&text={{ post.title|urlencode }}" alt="{{ post.title }}" class="hero-post-img"> -->
+         <img src="{% category_image_url post.category %}" alt="{{ post.title }}" class="hero-post-img">
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="single-post-details-area">
+                <div class="post-content">
+                    <a href="#" class="post-cata">{{ post.category }}</a>
+                    <h2 class="post-title">{{ post.title }}</h2>
+                    <div class="post-meta mb-30">
+                        <a href="#">By {{ post.author.username }}</a> | 
+                        <a href="#">{{ post.publish_date|date:"F d, Y" }}</a>
+                        {% if post.URL %}
+                         | <a href="{{ post.URL }}" target="_blank" style="color: var(--accent-color);">Read Original Article <i class="fa fa-external-link"></i></a>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="article-content">
+                        {{ post.body|linebreaks }}
+                    </div>
+
+                    <div class="post-meta-bottom mt-30">
+                        {% if post.original_author %}
+                        <p><strong>Original Author:</strong> {{ post.original_author }}</p>
+                        {% endif %}
+                        <p><strong>Original Publish Date:</strong> {{ post.publish_date|date:"F d, Y H:i" }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+             <!-- Sidebar content similar to index or specific to post -->
+        </div>
+    </div>
+{% endblock %}

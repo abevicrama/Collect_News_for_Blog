@@ -1,0 +1,55 @@
+{% extends 'blog/base.html' %}
+{% load blog_extras %}
+
+{% block content %}
+    <div class="container">
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Section Heading -->
+            <div class="section-heading">
+                <h4>Recent Posts</h4>
+            </div>
+
+            {% for post in recent_posts %}
+            <div class="single-post-area">
+                <div class="post-thumbnail">
+                    <!-- Use dummyimage with category text -->
+                    <!-- Use real images based on category -->
+                    <img src="{% category_image_url post.category %}" alt="{{ post.title }}">
+                </div>
+                <div class="post-content">
+                    <a href="#" class="post-cata cata-{{ post.category|lower }}">{{ post.category }}</a>
+                    <a href="{% url 'post_detail' post.id %}" class="post-title">{{ post.title }}</a>
+                    <div class="post-meta">
+                        <a href="#">By {{ post.author.username }}</a> | 
+                        <a href="#">{{ post.publish_date|date:"F d, Y" }}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <!-- Sidebar Area -->
+        <div class="sidebar">
+            
+            <!-- Category Widget -->
+            <div class="single-widget">
+                <h6 class="widget-title">Categories</h6>
+                <ul class="categories-list">
+                    {% for cat in category_counts %}
+                    <li>
+                        <a href="#">
+                            <span>{{ cat.category }}</span> 
+                            <span>({{ cat.count }})</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- Other Widgets can go here -->
+
+        </div>
+    </div>
+{% endblock %}

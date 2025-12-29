@@ -1,0 +1,7 @@
+I'm glad you're interested in exploring the latest changes at The Atlanta Journal-Constitution. As one of the largest newspapers in the country, they understand the importance of providing an excellent user experience across all platforms.
+
+Video players were introduced to enhance viewer engagement, but unfortunately, many users encountered issues with slow load times, ad playback problems, and audio volume issues. In fact, some viewers reported that their video content never loaded at all or had to wait for a long time before it began playing. Furthermore, the ads themselves froze or didn't finish loading completely, and they started playing only after the ad had finished. 
+
+The lack of interaction with the user was frustrating, as users had to navigate around other moving parts while waiting for their video content to load. Advertisers also felt that their ads were not being displayed correctly due to these issues.
+
+If you're interested in seeing how The Atlanta Journal-Constitution has addressed these technical concerns and improved the overall user experience of its website, be sure to check out our latest article on "The Atlanta Journal-Constitution turns the page on print edition". In it, we'll dive deeper into what went wrong and how they've been working to fix these issues.

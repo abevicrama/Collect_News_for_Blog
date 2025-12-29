@@ -1,0 +1,12 @@
+You can download Andromeda OS, the cancelled Windows for Surface Duo.
+
+Technical importance of Android-based OS:
+The original plans were to create an Android-based operating system for the Surface Duo, which suggests that it was designed with mobile device-centric features in mind. This would have likely included features like split-screen multitasking and a stylus support.
+
+Unstable build:
+The unstable build is available because Microsoft ended up choosing to go with an Android-based OS instead of Windows 10. This might be due to the fact that the Duo's design wasn't well-suited for a full-fledged Windows operating system, or it could be related to the development process itself.
+
+To download and explore this cancelled OS:
+Visit XDA for more information on how to install the Android-based OS on your Surface Duo. Follow topics and authors from this story to see more like this in your personalized homepage feed and receive email updates about similar tech news.
+
+Get started today: Click the link below to download Andromeda OS and start exploring what could have been a Windows-based alternative for the Surface Duo.

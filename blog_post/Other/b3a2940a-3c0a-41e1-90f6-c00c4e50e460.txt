@@ -1,0 +1,9 @@
+The startup is focused on essentially one task: preventing damaging water leaks in data centers.
+
+Data centers use a lot of water, and that water can present a big risk, even if a leak is small. A single drop of water can cause significant damage to servers and equipment, leading to costly repairs and downtime.
+
+Founder John Khazraee told TechCrunch that many data centers only have reactive solutions for water leaks. "I've noticed these issues in data centers, and the only solution they had was: 'when the leak happens, we find out'," he said in an interview.
+
+The truth is that finding a leak before it's too late requires proactive measures to detect even minor water droplets. MayimFlow aims to change this by developing innovative solutions that can help prevent devastating data center leaks. As technology continues to advance, the stakes are higher than ever for data centers and their reliance on clean, dry air.
+
+With the right tools and expertise, we can take control of our data center's plumbing system and prevent costly water damage. Learn more about MayimFlow's mission and how you can help protect your own data centers from leaks.

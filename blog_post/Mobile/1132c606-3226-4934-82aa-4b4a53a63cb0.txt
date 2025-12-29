@@ -1,0 +1,5 @@
+There's been some exciting news in the world of Gmail - you may soon have the ability to change your address without losing access to your old emails. This is made possible by Google's gradual rollout of a feature that allows users to switch from one email address to another, including their current Gmail address.
+
+This change will enable you to easily move your old Gmail account to a new one, and sign into other Google services using either the new or old address. However, it's worth noting that this change won't be complete for 12 months - during that time, you'll only be able to use an additional email address tied to your account.
+
+If you're due for a Gmail makeover, make sure to check out the official support website for more information on how to switch addresses. You can also use tools like Google's AutoComplete feature to find and replace all instances of your current email address across your entire digital life.

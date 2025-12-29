@@ -1,0 +1,6 @@
+OpenAI is looking for a new Head of Preparedness
+As AI research continues to advance, OpenAI recognizes the growing need to prepare for emerging risks. The company's current Head of Preparedness, Aleksander Madry, has been reassigned to focus on AI reasoning. This leaves an opening for someone with expertise in safety and preparedness.
+
+The Preparedness Framework is a crucial component of OpenAI's risk management strategy. By studying potential catastrophic risks, the company aims to develop safeguards to mitigate their impact. The updated framework suggests that safety requirements may evolve if a competing lab releases a "high-risk" model without equivalent protections.
+
+If you're passionate about AI and want to contribute to its development while ensuring security and safety, consider applying for this role. With expertise in areas like computer security, mental health, or related fields, you can help shape OpenAI's preparedness strategy. To learn more about the position and submit your application, visit [link].

@@ -1,0 +1,4 @@
+You can now download this cancelled Windows OS for your Surface Duo
+
+Summary Andromeda OS was Microsoft's Windows-like operating system being canceled due to compatibility issues with the original Surface Duo, but it has unexpectedly resurfaced. Although you won't be able to use it on the newer Surface Duo 2, you can still try it out on the OG Surface Duo using a GitHub guide. To do this, make sure your original Surface Duo is running Windows 10 and the latest updates, then follow these steps: 
+Download the Andromeda OS file from a trusted source, such as Microsoft's GitHub page. Be aware that installing it may cause issues due to compatibility problems with the new Surface Duo 2. You'll also need an ARM64-based processor, like the one on the original Surface Duo. Once installed, you can try out Andromeda OS and see if it runs smoothly.

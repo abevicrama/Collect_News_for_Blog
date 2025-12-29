@@ -1,0 +1,12 @@
+This list included Curiosio, an AI trip planning tool that provides a map, budget and calculated trip length for you within seconds.
+
+My nonnegotiables for an AI trip planner include a bright and accessible interface, little to no fees, and inspiration for my upcoming trip. How to plan a road trip with AI
+
+To get started, head to the website and enter your country. Let the AI do its thing and create a personalized road trip plan.
+
+Using Curiosio's travel tool is as simple as clicking on a button. Here are three modes you can choose from: Travel, Geek, and Beta. 
+
+Write a catchy opening that grabs the reader's attention
+
+INSTRUCTION: Write a catchy opening, explain the technical importance, 
+and end with a call to action. Add a few more relevant tech details
