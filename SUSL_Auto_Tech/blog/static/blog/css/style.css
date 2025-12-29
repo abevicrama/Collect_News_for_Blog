@@ -43,6 +43,21 @@ a:hover {
     z-index: 1000;
 }
 
+.nav-brand {
+    padding: 10%;
+    font-size: 34px;
+    font-weight: bold;
+}
+.breaking-news {
+    width: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.social-info {
+    padding-right: 10%;
+}
+
 .classy-nav-container {
     background-color: transparent;
     padding: 15px 0;
@@ -57,6 +72,7 @@ a:hover {
 
 .classy-menu {
     display: flex;
+    padding-right: 10%;
 }
 
 .classy-menu ul {
@@ -108,9 +124,9 @@ a:hover {
 .container {
     max-width: 1200px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 0 40px; /* Increased padding for side spacing */
     display: flex;
-    gap: 30px;
+    gap: 40px; /* Increased gap between main content and sidebar */
 }
 
 .main-content {
@@ -259,6 +275,33 @@ a:hover {
 
 .article-content p {
     margin-bottom: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 5px 10px;
+}
+
+.pagination .page-link:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+.pagination .active .page-link {
+    background-color: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
 }
 
 /* Footer */

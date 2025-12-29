@@ -12,7 +12,7 @@
         <div class="main-content">
             <div class="single-post-details-area">
                 <div class="post-content">
-                    <a href="#" class="post-cata">{{ post.category }}</a>
+                    <a href="{% url 'category_posts' post.category %}" class="post-cata">{{ post.category }}</a>
                     <h2 class="post-title">{{ post.title }}</h2>
                     <div class="post-meta mb-30">
                         <a href="#">By {{ post.author.username }}</a> | 
@@ -37,7 +37,20 @@
         </div>
 
         <div class="sidebar">
-             <!-- Sidebar content similar to index or specific to post -->
+            <!-- Category Widget -->
+            <div class="single-widget">
+                <h6 class="widget-title">Categories</h6>
+                <ul class="categories-list">
+                    {% for cat in category_counts %}
+                    <li>
+                        <a href="{% url 'category_posts' cat.category %}">
+                            <span>{{ cat.category }}</span> 
+                            <span>({{ cat.count }})</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -35,7 +35,7 @@
             <div class="vizew-nav-container">
                 <div class="top-header-content">
                     <div class="breaking-news">
-                        <p>Welcome to SUSL Auto Tech Blog</p>
+                        <a href="{% url 'blog_index' %}" class="nav-brand">SUSL AUTO TECH</a>
                     </div>
                     <div class="social-info">
                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -50,15 +50,13 @@
         <!-- Navbar Area -->
         <div class="vizew-main-menu">
             <div class="vizew-nav-container">
-                <a href="{% url 'blog_index' %}" class="nav-brand">SUSL AUTO TECH</a>
+                
                 <div class="classy-nav-container">
                     <nav class="classy-navbar">
                         <div class="classy-menu">
                             <ul id="nav">
                                 <li><a href="{% url 'blog_index' %}">Home</a></li>
-                                <li><a href="#">Archives</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="{% url 'contact' %}">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -75,7 +73,8 @@
     <footer class="footer-area">
         <div class="container">
             <div class="copywrite-text">
-                <p>&copy; Copyright 2025 SUSL Auto Tech. All rights reserved.</p>
+                <p>&copy; Copyright 2025 SUSL Auto Tech. All rights reserved. Developed by Abeywickrama</p>
+                
             </div>
         </div>
     </footer>
