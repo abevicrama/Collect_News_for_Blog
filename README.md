@@ -60,7 +60,7 @@ Access the site at `http://127.0.0.1:8000/` (or your configured port).
 ## Requirements
 - Python 3.10+
 - Django 5.x
-- Newspaper3k (for scraping)
+- Newspaper4k (for scraping)
 - Pandas (for data manipulation)
 
 ## Setup
