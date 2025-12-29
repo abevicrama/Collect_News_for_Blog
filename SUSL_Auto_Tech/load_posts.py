@@ -43,15 +43,11 @@ def import_data():
                 'publish_date': row.get('publish_date')
             })
 
-            if not created:
-                # Update fields for existing posts
-                post.original_author = row.get('author', '')
-                post.publish_date = row.get('publish_date')
-                post.save() 
-            
-            action = "Created" if created else "Updated"
-            count += 1
-            print(f"{action}: {post.title[:30]}...")
+            if created:
+                print(f"Created: {post.title[:30]}...")
+            else:
+                 # Skip existing posts
+                 pass
 
     print(f"Successfully imported {count} posts.")
 

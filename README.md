@@ -82,4 +82,4 @@ Access the site at `http://127.0.0.1:8000/` (or your configured port).
    ```
 
 ---
-*Developed by Abeywickrama for SUSL Auto Tech*
+*Developed by Abeywickrama for*

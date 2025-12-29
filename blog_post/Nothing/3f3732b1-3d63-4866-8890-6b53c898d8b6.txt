@@ -1,0 +1,5 @@
+Myanmar's first election since the 2021 military coup is being held on Saturday, March 2nd, but there have been some issues along the way. A video player was slow to load content, and the audio on ads was too loud. Other problems included ad freezing or delaying, and the page getting stuck while loading ads. This could be due to multiple videos running at once, which increases processing time, or a faulty internet connection.
+
+Some of these issues are related to JavaScript libraries like Adobe Flash, which have been deprecated for years but still used in some cases. Additionally, the video player used by the country's state-owned broadcaster was not optimized for modern browsers, resulting in slower load times and poor performance. However, Microsoft has made efforts to improve internet connectivity in Myanmar, and there are also reports of users taking matters into their own hands by using VPNs or bypassing ads altogether.
+
+If you're interested in learning more about the technical aspects of online video playback, consider checking out a resource like YouTube's Developer Documentation or Adobe's documentation on Flash.
